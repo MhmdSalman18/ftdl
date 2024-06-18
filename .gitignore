@@ -1,43 +1,117 @@
 # Miscellaneous
 *.class
+*.lock
 *.log
 *.pyc
 *.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
+*.DS_Store
+*.suo
+*.tmp
+*.user
+*.userosscache
+*.rej
+*.bak
+*.old
+*.orig
+*.so
+*.orig.*
+*.ko
+*.cmd
+*.mod
+*.bin
+*.mk
+*.save
+*.d
+*.ident
+*.pdb
+*.idb
+*.obj
+*.o
+*.lst
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exe
+*.dll
+*.dylib
+*.lib
+*.so
+*.swp
+*.res
+*.py[cod]
+*.moc
+*.qrc
+*.rcc
+*.gch
+*.pch
+*.LDS
+*.mod.c
 
-# IntelliJ related
+# Build directories
+build/
+flutter_*.png
+
+# Dart & Flutter specific
+.dart_tool/
+.packages
+.pub/
+*.lock
+*.log
+
+# Web specific
+web/manifest.json
+web/favicon.png
+
+# IntelliJ related files
 *.iml
-*.ipr
-*.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code related files
+.vscode/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
+# iOS related files
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/DerivedData/
+ios/.symlinks/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
 
-# Symbolication related
-app.*.symbols
+# Android related files
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+android/.idea/
+android/*/build/
 
-# Obfuscation related
-app.*.map.json
+# MacOS related files
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Pods/
+macos/Podfile.lock
+macos/Runner.xcworkspace/
+macos/build/
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Windows related files
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.cc
+windows/CMakeLists.txt
+windows/Flutter/ephemeral/
+
+# Linux related files
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.cc
+linux/CMakeLists.txt
+linux/Flutter/ephemeral/
+
+# Hidden files
+.*
